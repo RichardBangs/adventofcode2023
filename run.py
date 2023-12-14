@@ -7,7 +7,7 @@ import subprocess
 # This is a wrapper to run any day's solution in either test or input mode.
 
 # Command Line Arguments:
-#	pypy run.py [year] [day] [mode]
+#	pypy run.py [mode] [year] [day] [part]
 #
 # Example:
 #	pypy run.py "test" 2023 1
