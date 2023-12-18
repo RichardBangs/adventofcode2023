@@ -11,6 +11,13 @@ def main_part1(inputFile : str) -> int:
 
 	sum = 0
 
+	for row in range(0, len(fullInput)):
+
+		line = fullInput[row].strip('\n')
+
+		if(line == ""):
+			continue
+
 	return sum
 
 
@@ -23,6 +30,13 @@ def main_part2(inputFile : str) -> int:
 	fullInput = f.readlines();
 
 	sum = 0
+
+	for row in range(0, len(fullInput)):
+
+		line = fullInput[row].strip('\n')
+
+		if(line == ""):
+			continue
 
 	return sum
 
